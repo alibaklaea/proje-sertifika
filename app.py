@@ -34,7 +34,7 @@ if name:
         text_y_position = H / 2  # Görselin tam ortası. 
         
         # Yazıyı görselin ortasına hizalı şekilde yazdır
-        draw.text((W/2, text_y_position), name, fill="black", font=font, anchor="mm")
+        draw.text((W/2, text_y_position), name, fill="gold", font=font, anchor="mm")
         
         # Sonucu göster
         st.image(img, caption="Preview (Önizleme)", use_column_width=True)
