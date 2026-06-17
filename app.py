@@ -21,7 +21,7 @@ if name:
         
         # YAZI TİPİ AYARI: Yazı boyutu (80) ihtiyaca göre değiştirilebilir
         # font dosyasının adının klasördekiyle aynı olduğundan emin olun
-        font = ImageFont.truetype("arial.TTF", 80)
+        font = ImageFont.truetype("arial.ttf", 80)
         
         # KOORDİNAT AYARI: 
         # İsmin tam olarak noktaların üzerine gelmesi için X ve Y değerlerini ayarlamalıyız.
