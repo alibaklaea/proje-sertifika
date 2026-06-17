@@ -31,7 +31,7 @@ if name:
         # İsmi ortalamak için (X, Y) koordinatları
         # ÖNEMLİ: 350 değerini ismin sertifikadaki dikey konumuna göre artırıp azaltın
         # (Noktalarınız görselin neresindeyse oraya denk getireceğiz)
-        text_y_position = H / 2  # Görselin tam ortası. 
+        text_y_position = (H / 2) - 50  # Görselin tam ortası. 
         
         # Yazıyı görselin ortasına hizalı şekilde yazdır
         draw.text((W/2, text_y_position), name, fill="gold", font=font, anchor="mm")
